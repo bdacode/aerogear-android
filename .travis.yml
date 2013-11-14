@@ -10,7 +10,7 @@ env:
 before_install:
 
   #download and configure newer version of maven
-  - wget http://www.picotopia.org/apache/maven/maven-3/3.1.1/binaries/apache-maven-3.1.1-bin.tar.gz;
+  - wget http://apache.petsads.us/maven/maven-3/3.1.1/binaries/apache-maven-3.1.1-bin.tar.gz  
   - tar -zvxf apache-maven-3.1.1-bin.tar.gz;
   - export PATH=$PWD/apache-maven-3.1.1/bin:$PATH
   
